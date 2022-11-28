@@ -1,0 +1,223 @@
+.navbar {
+    color: rgb(5, 194, 68);
+    background-color: rgb(238, 251, 251);
+
+}
+
+ul {
+    color: black;
+}
+
+* {
+    font-family: 'Anek Devanagari', sans-serif;
+    color: white;
+}
+
+.corpoCarta .card-title,
+.corpoCarta .card-text,
+.accordion-body,
+strong {
+    color: black;
+}
+
+.testo-contatti {
+    margin: 50px;
+}
+
+body {
+    background-color: rgb(4, 114, 114);
+    background-repeat: repeat-x;
+    background-image: url("img/sfondo.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+.container-principale {
+    align-items: center;
+}
+
+.navbar .logoNavbar {
+    float: left;
+    max-width: 100px;
+    border-radius: 30%;
+    padding: 15px;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.navbar .listaInfo {
+    list-style: none;
+    display: flex;
+
+}
+
+.navbar .listaInfo li {
+    padding: 16px;
+    margin: 5px;
+    color: black;
+}
+
+.contenitore-carosello {
+    margin: 50px;
+}
+
+------- body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+}
+
+.ilTeam{
+    margin: 32px 0;
+}
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #02aca6d7;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: inline;
+    }
+}
+
+
+/************************** footer  */
+.footer {
+    display: inline;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 25px;
+
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+
+.footer {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+
+}
+
+
+/*form *************/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.testo-contatti {}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: rgb(4, 114, 114);
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
